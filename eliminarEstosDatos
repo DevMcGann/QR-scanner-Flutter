@@ -1,13 +1,11 @@
-pk.eyJ1IjoiZGV2bWNnYW5uIiwiYSI6ImNrZGI5bGUzazEybTUycnBtMHkya29mbzEifQ.cnpZyeTPtmKCV_aYVN1bnw
 
-pk.eyJ1IjoiZGV2bWNnYW5uIiwiYSI6ImNrZGI5dHVrMzA5am0ycnF0Z3ZtaG1idnkifQ.czXXb73luXQYSCxOg54yjQ
 
 
 return TileLayerOptions(
         urlTemplate: 'https://api.tiles.mapbox.com/v4/'
             '{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}',
         additionalOptions: {
-        'accessToken':'pk.eyJ1Ijoiam9yZ2VncmVnb3J5IiwiYSI6ImNrODk5aXE5cjA0c2wzZ3BjcTA0NGs3YjcifQ.H9LcQyP_-G9sxhaT5YbVow',
+        'accessToken':'insert yout api key',
         'id': 'mapbox.streets'
         }
 );
